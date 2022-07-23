@@ -37,12 +37,3 @@ Ganache搭建测试链
 Crowdsourcing to smartphones: incentive mechanism design for mobile phone sensing[C]
 
 参考该论文中以平台为中心的激励机制
-
-### 网站架构图
-
-![](..\image\02.png)
-
-### 业务流程图
-
-![](..\image\01.png)
-
