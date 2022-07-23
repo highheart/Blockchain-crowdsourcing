@@ -40,9 +40,9 @@ Crowdsourcing to smartphones: incentive mechanism design for mobile phone sensin
 
 ### 网站架构图
 
-![](image\02.png)
+![](..\image\02.png)
 
 ### 业务流程图
 
-![](image\01.png)
+![](..\image\01.png)
 
