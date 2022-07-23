@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>区块链众包系统</title>
+  <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link href='css/app.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container">
+  <h2>区块链众包系统</h2>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>我要发包</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>发布任务：</td>
+          <td>
+            <input type="text" id="description" placeholder="输入任务描述"/>
+            <button id ="publishtask" class="btn btn-primary">发布</a>
+          </td>
+        </tr>
+        <tr>
+          <td>奖励完成情况：</td>
+          <td>
+            <input type="text" id="worker" placeholder="输入奖励者的地址"/>
+            <input type="text" id="isok" placeholder="输入合格或不合格"/>
+            <button id ="Rewarding" class="btn btn-primary">奖励</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>我要接包</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>注册工人身份：</td>
+          <td>
+            <button id ="registered" class="btn btn-primary">注册</a>
+          </td>
+        </tr>
+        <tr>
+          <td>提交成果：</td>
+          <td>
+            <input type="text" id="taskaddr" placeholder="输入任务id"/>
+            <input type="text" id="data" placeholder="输入成果"/>
+            <button id ="submit" class="btn btn-primary">提交</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <div id="panel panel-default1">
+    <div class="panel-heading">任务列表</div>
+    <div class="panel-body" id="information"></div>
+  </div>
+  <div id="panel panel-default2">
+    <div class="panel-heading">您收到的成果</div>
+    <div class="panel-body" id="result"></div>
+  </div>
+  <div id="panel panel-default3">
+    <div class="panel-heading">任务完成情况</div>
+    <div class="panel-body" id="yesorno"></div>
+  </div>
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/truffle-contract.js"></script>
+
+<script src="js/app.js"></script>
+</html>
